@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>http://example.com/post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Apr 2019 11:18:23 +0700</lastBuildDate>
     
-	<atom:link href="http://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello</title>
-      <link>http://example.com/post/hello/</link>
+      <link>/post/hello/</link>
       <pubDate>Thu, 11 Apr 2019 11:18:23 +0700</pubDate>
       
-      <guid>http://example.com/post/hello/</guid>
+      <guid>/post/hello/</guid>
       <description> This is my first post </description>
     </item>
     
