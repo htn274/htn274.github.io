@@ -3,45 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://htn274.github.io/about/</loc>
-    <lastmod>2019-04-11T14:37:27+07:00</lastmod>
+    <loc>http://example.com/post/post1/</loc>
+    <lastmod>2019-04-12T09:47:12+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://htn274.github.io/tutorials/first/</loc>
-    <lastmod>2019-04-11T14:37:27+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://htn274.github.io/post/hello/</loc>
+    <loc>http://example.com/post/hello/</loc>
     <lastmod>2019-04-11T11:18:23+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://htn274.github.io/</loc>
-    <lastmod>2019-04-11T14:37:27+07:00</lastmod>
+    <loc>http://example.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://htn274.github.io/post/</loc>
-    <lastmod>2019-04-11T11:18:23+07:00</lastmod>
+    <loc>http://example.com/</loc>
+    <lastmod>2019-04-12T09:47:12+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://htn274.github.io/tags/</loc>
+    <loc>http://example.com/post/</loc>
+    <lastmod>2019-04-12T09:47:12+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://htn274.github.io/tutorials/</loc>
-    <lastmod>2019-04-11T14:37:27+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://htn274.github.io/tutorials/</loc>
+    <loc>http://example.com/tags/</loc>
     <priority>0</priority>
   </url>
   
