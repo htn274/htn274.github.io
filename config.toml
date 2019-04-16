@@ -1,52 +1,62 @@
-baseurl = "https://htn274.github.io/"
-theme = "hugo-geo" 
-relativeURLs = false
+baseURL = "https://htn274.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-disqusShortname = "shortcode-here"
-paginate = 5
-
-[taxonomies]
-	tag = "tags"
-	tutorial = "tutorials"
+title = "Minimal"
+theme = "minimal"
+# disqusShortname = "username" # delete this to disable disqus comments
+googleAnalytics = ""
 
 [params]
-	showglobe = true
+    author = "Calin Tataru"
+    description = "Personal blog theme powered by Hugo"
+    githubUsername = "#"
+    accent = "red"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Arial" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 
-	favicon = "favicon.ico"
-	
-	analytics = "code-here"
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
 
-	email = "alexurquhart@gmail.com"
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 2
 
-	profilepic = "img/profile.jpg"
-	
-	title = "Hoàng Thiên Nữ"
-	subtitle = "MY HUGO BLOG"
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 3
 
-	# Social buttons for sidebar
-	# Each of these are optional
-	[[params.socialbuttons]]
-	faicon = "github"
-	url = "https://github.com/alexurquhart"
-	[[params.socialbuttons]]
-	faicon = "twitter"
-	url = "https://twitter.com/alexanderurq"
-	[[params.socialbuttons]]
-	faicon = "linkedin"
-	url = "https://linkedin.com"
-	[[params.socialbuttons]]
-	faicon = "google-plus"
-	url = "https://plus.google.com/+YourID"
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
 
-	[[params.navlinks]]
-	name = "About"
-	url = "about"
-	
-	[[params.navlinks]]
-	name = "Blog"
-	url = ""
-	
-	[[params.navlinks]]
-	name = "Tutorials"
-	url = "tutorial/"
+[[menu.icon]]
+    url = "mailto:me@example.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/username/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/username/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/username/"
+    name = "linkedin"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://www.stackoverflow.com/username/"
+    name = "stack-overflow"
+    weight = 5
