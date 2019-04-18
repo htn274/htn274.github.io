@@ -6,26 +6,10 @@
     <description>Recent content on Minimal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Apr 2019 14:26:34 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 12 Apr 2019 09:47:12 +0700</lastBuildDate>
     
 	<atom:link href="https://htn274.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Note book about git</title>
-      <link>https://htn274.github.io/tutorials/git/</link>
-      <pubDate>Tue, 16 Apr 2019 14:26:34 +0700</pubDate>
-      
-      <guid>https://htn274.github.io/tutorials/git/</guid>
-      <description>Thao tác cơ bản Tạo một repos mới  git init
- Clone 1 repos  git clone /path/to/repository
- Add Khi add file sẽ vào staging area để chuẩn bị cho lần commit tiếp theo.
-Add tất cả các file.
- git add .
- Add những file cần thiết. Ví dụ: chỉ add những file python.
- git add *.py
- Sau khi add có thể remove file ra khỏi staging area.</description>
-    </item>
     
     <item>
       <title>#1: BÀI HỌC ĐẦU TIÊN</title>
